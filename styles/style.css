@@ -22,15 +22,15 @@ header {
 }
 
 .menu {
+    margin: 0;
     z-index: 1;
     font-size: 12pt;
-    margin: auto;
-    margin-top: 40px;
     width: 100%;
     background-color: white;
-    opacity: .60;
+    opacity: .80;
     text-align: center;
     font-weight: bold;
+    height: 55px;
 }
 
 .menu a {
@@ -38,14 +38,15 @@ header {
 }
 
 .menu nav, img {
-    margin: 20px 10px;
-    display: inline;
+    margin-top: 10px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
-.logo {   
+.logo {
     z-index: 1;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
     text-align: center;
     font-weight: bold;
@@ -59,4 +60,143 @@ header {
 .logo h5 {
     color: #ffffff;
     font-weight: normal;
+}
+
+.gal {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gal img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.cntr {
+    margin: 20px auto;
+    display: block;
+
+}
+
+.about {
+    z-index: 1;
+    font-size: 12pt;
+    margin: auto;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu_2 {
+    z-index: 1;
+    font-size: 12pt;
+    margin: auto;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ondark {
+    background-color: #4A7059;
+}
+
+.ondark h3 {
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}
+
+.pirogki {
+    margin-top: 250px;
+}
+
+.table {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.tblwe {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border: white;
+}
+
+.ongreen {
+    background-color: #D6E9DD;
+
+}
+
+.ongreen h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 32pt;
+}
+
+
+.lunches {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunches .greenRectangular {
+    width: 85%;
+    height: 350px;
+    background-color: #4A7059;
+}
+
+.lunches .leaves {
+    position: relative;
+    top: -140px;
+    left: -90px;
+    height: 370px;
+}
+
+.lunches .lunchesTitle {
+    position: relative;
+    top: -120px;
+    left: -90px;
+    height: 130px;
+}
+
+.lunches h3 { 
+    position: relative;
+    color: #ffffff;
+    top: -215px;
+    left: 50px;
+}
+
+.lunches p {
+    position: relative;
+    color: #ffffff;
+    top: -220px;
+    left: 30px;
+    max-width: 350px;
+}
+
+.lunches .greenRectangular .whiteRectangular {
+    position: relative;
+    right: calc(-100% + 240px);
+    top: -250px;
+    background-color: #ffffff;
+    height: 120px;
+    width: 270px;
+    color: #4A7059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px dimgrey;
+}
+
+
+.lunches .whiteRectangular span {
+    margin: 0 20px;
 }

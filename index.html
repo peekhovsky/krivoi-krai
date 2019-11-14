@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
     <title>Живой край</title>
 
 </head>
 
 <body>
-    <img class="dot" src="images/dot.png" alt="dot">
-    <header class="header">
-        <div class="menu">
-            <nav>
-                <a href="#smallpies">ПИРОЖКИ</a>
-                <a href="#soups">СУПЫ</a>
-                <a href="#salats">САЛАТЫ</a>
-                <a href="#bread">ХЛЕБ</a>
-                <a href="#pies">ПИРОГИ</a>
-                <a href="#cakes">ТОРТЫ</a>
-            </nav>
-            <img height="30" src="images/сердце.png" alt="heart"> <!-- find img -->
-            <nav>
-                <a href="#contacts">КОНТАКТЫ</a>
-                <a href="#map">КАРТА</a>
-                <a href="#about">О НАС</a>
-                <a href="#order">ЗАКАЗАТЬ</a>
-            </nav>
-        </div>
+<img class="dot" src="images/dot.png" alt="dot">
+<header class="header">
+    <div class="menu">
+        <nav>
+            <a href="#smallpies">ПИРОЖКИ</a>
+            <a href="#soups">СУПЫ</a>
+            <a href="#salats">САЛАТЫ</a>
+            <a href="#bread">ХЛЕБ</a>
+            <a href="#pies">ПИРОГИ</a>
+            <a href="#cakes">ТОРТЫ</a>
+        </nav>
+        <img height="30" src="images/сердце.png" alt="heart"> <!-- find img -->
+        <nav>
+            <a href="#contacts">КОНТАКТЫ</a>
+            <a href="#map">КАРТА</a>
+            <a href="#about">О НАС</a>
+            <a href="#order">ЗАКАЗАТЬ</a>
+        </nav>
+    </div>
 
-        <div class="logo">
-            <img height="170" src="images/живой_край.png" alt="logo">
-            <h2>НАСТОЯЩАЯ ВЫПЕЧКА</h2>
-            <h5>улица Беды, 45 | +375(29)1234567 | 11:00-21:00 </h5>
-            <h5>пирожки, пироги, торты, муссы & обеды</h5>
-        </div>
+    <div class="logo">
+        <img height="170" src="images/живой_край.png" alt="logo">
+        <h2>НАСТОЯЩАЯ ВЫПЕЧКА</h2>
+        <h5>улица Беды, 45 | +375(29)1234567 | 11:00-21:00 </h5>
+        <h5>пирожки, пироги, торты, муссы & обеды</h5>
+    </div>
 
-    </header>
-</body>
-<script src="./dist/main.js"></script>
+</header>
+
 
 <div class="gal">
     <img width=18% src="images/галерея_1.jpg" alt="pic">
@@ -53,8 +54,8 @@
 <div>
     <img width=70% src="images/точки.png" alt="pic" class="cntr">
     <h4 class="about">
-        Мы понравимся вам своей душевной атмосферой, качеством блюд и широким выбором полезной еды.<br />
-        Мы любим всё простое и натуральное, свежее и вкусное. <br />А ещё постоянно обновлением линейку эко-продуктов на
+        Мы понравимся вам своей душевной атмосферой, качеством блюд и широким выбором полезной еды.<br/>
+        Мы любим всё простое и натуральное, свежее и вкусное. <br/>А ещё постоянно обновлением линейку эко-продуктов на
         наших прилавках.
     </h4>
     <img width=70% src="images/петли.png" alt="pic" class="cntr">
@@ -62,11 +63,11 @@
 
 <div>
     <img width="80%" src="images/menu2.png" alt="меню" class="cntr">
-    <h5 class="menu_2">В этом списке находятся только наши<br />хиты, на самом деле наше меню<br /> значительно шире
+    <h5 class="menu_2">В этом списке находятся только наши<br/>хиты, на самом деле наше меню<br/> значительно шире
     </h5>
     <img height="50" id="smallpies" src="images/pirogki.png" alt="menu_2" class="cntr">
     <h5 class="menu_2">Пирожки - это наш топ! В основе теста ржаная мука. Мы кладём по-больше начинки -
-        так<br />вкуснее. Все пирожки сделаны вручную и с любовью</h5>
+        так<br/>вкуснее. Все пирожки сделаны вручную и с любовью</h5>
 
 </div>
 <table class="table">
@@ -166,11 +167,13 @@
 
 <div id="map">
     <script type="text/javascript" charset="utf-8" async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb1e4195981273f954c4c0e6d65f65188e9dd032c0d4236c12c39c5f4bd90c92&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb1e4195981273f954c4c0e6d65f65188e9dd032c0d4236c12c39c5f4bd90c92&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
 </div>
-<div class="ondark"><br />
-    <h3>© 2019 Живой край</h3><br />
+<div class="ondark"><br/>
+    <h3>© 2019 Живой край</h3><br/>
 </div>
 
 
+<script src="./dist/main.js"></script>
+</body>
 </html>

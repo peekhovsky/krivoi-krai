@@ -17,8 +17,7 @@
 }
 
 header {
-    position: inline;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 
 .menu {
@@ -69,6 +68,9 @@ header {
     align-items: center;
 }
 
+.slick-slide {
+    margin: 10px;
+}
 .gal img {
     display: inline-block;
     margin: 0 10px;
